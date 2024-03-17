@@ -1,6 +1,7 @@
-name: 
+name: ci-fullstack-workflow
 # Ensure the workflow runs on schedule (Sunday at 0:00) and on push to the main branch
 on:
+  workflow_dispatch:
   push:
     branches: 
       - main
